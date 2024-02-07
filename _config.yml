@@ -116,3 +116,29 @@ hide_posts:
   public_generators: []
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
+
+#2024.2.7 脚注配置
+# 卸载自带的渲染
+# npm un hexo-renderer-marked --save
+# 下载渲染插件
+# npm i hexo-renderer-markdown-it --save
+# markdown:
+#   render:
+#     html: true
+#     xhtmlOut: false
+#     breaks: true
+#     linkify: true
+#     typographer: true
+#     quotes: '“”‘’'
+#   plugins:
+#     - markdown-it-abbr
+#     - markdown-it-footnote
+#     - markdown-it-ins
+#     - markdown-it-sub
+#     - markdown-it-sup
+#   anchors:
+#     level: 2
+#     collisionSuffix: 'v'
+#     permalink: true
+#     permalinkClass: header-anchor
+#     permalinkSymbol: ¶
